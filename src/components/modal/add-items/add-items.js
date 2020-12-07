@@ -17,7 +17,7 @@ const AddItems = () => {
     }, [])
 
     const category = useSelector((state) => state.menu.ctgr)
-    // console.log(img)
+    console.log(ctgr)
 
     return (
         <>
@@ -68,8 +68,7 @@ const AddItems = () => {
                                 <div className="col-10" >
                                     <select className="form-control category" name="id_category" id="cat" autoComplete="off" onChange={(event) => {
                                         setCtgr(event.target.value)
-                                        
-                                    }} >
+                                    }}>
                                         <option value="" disabled hidden>Category</option>
                                         {category.map((item) => {
                                             return (
