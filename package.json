@@ -11,6 +11,8 @@
     "chart.js": "^2.9.4",
     "cors": "^2.8.5",
     "dom": "0.0.3",
+    "netlify": "^4.9.0",
+    "netlify-cli": "^2.69.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-chartjs-2": "^2.11.1",
