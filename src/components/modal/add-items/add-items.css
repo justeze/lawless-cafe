@@ -1,0 +1,27 @@
+.form-kambing {
+    margin-bottom: 50px;
+}
+.asu {
+    display: block;
+      margin-right: 50px;
+      margin-bottom: 20px;
+      border: none;
+      padding: 14px 28px;
+      font-size: 16px;
+      text-align: center;
+      color: white;
+      min-width: 50px;
+  }
+  
+  .asu button {
+    color: white;
+  }
+  
+  .jabingan {
+    background-color: #57CAD5;
+    margin-bottom: 20px;
+  }
+  
+  .bajingan {
+    background-color: #F24F8A;
+  }

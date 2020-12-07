@@ -1,0 +1,92 @@
+/* sidebar-right */
+.cart-items{
+    position: fixed;
+    top: 60px;
+    right: 0;
+    margin-left: 75%;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* background-color: black; */
+    box-shadow: -5px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .selected-items {
+    margin-top: 20px;
+  }
+  .selected-items img{
+    height: 80px;
+    width: 100px;
+  }
+  
+  .billOut {
+    margin-top: 20%;
+  }
+  .billOut > div {
+    margin: -10px;
+  }
+  .billOut-total {
+    right: 12%;
+  }
+  .billOut-price {
+    left: 7%;  
+  }
+  .billOut-desc {
+    right: 2%;
+  }
+  .btn{
+    margin-top: 60px;
+    margin-left: 7%;
+  }
+  .btn > div {
+    margin-bottom: 20px;
+  }
+  .block {
+    display: block;
+    margin-right: 50px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    min-width: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  /* .btn button {
+    display: block;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  } */
+  .checkout-btn button{
+    width: 275%;
+    background-color: #57CAD5;
+  }
+  .cancel-btn button{
+    width: 330%;
+    background-color: #F24F8A;
+  }
+  .btn-group button {
+    border: 1px solid #82de3a;
+    color: #82de3a;
+    background-color: rgba(130, 222, 58, 0.2);
+    padding: 5px 10px;
+    font-weight: bold;
+  }
+  .qty {
+    color: #82de3a;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #82de3a;
+    padding: 5px 10px;
+  }

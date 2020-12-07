@@ -1,0 +1,17 @@
+.chart-wrapper{
+    width: 100%;
+    padding-right: 1vw;
+    margin-top: 7vh;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.header-chart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom: 4vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}

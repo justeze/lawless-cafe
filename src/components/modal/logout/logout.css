@@ -1,0 +1,15 @@
+.logout-btn {
+    color: white;
+    background-color: #F24F8A;
+}
+.cncl-btn {
+    color: white;
+
+  background-color: #57CAD5;
+}
+.logout-btn:hover {
+    color: white
+}
+.cncl-btn:hover {
+    color: white
+}

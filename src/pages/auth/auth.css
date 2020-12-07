@@ -1,0 +1,127 @@
+.body {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+.login {
+    padding: 30px;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+}
+.desc {
+    position: fixed;
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    width: 420px;
+    margin-top: 80px
+}
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    flex-direction: column;
+}
+.loginInput {
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    font-size: 14px;
+}
+.registerInput {
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 48px;
+    background-color: white;
+    border: 1px solid #9B9B9B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    font-size: 14px;
+}
+.forgot {
+    /* width: 200px; */
+    
+    padding: 5px;
+    font-size: 14px;
+    /* margin-top: 10px; */
+    color: #F24F8A;
+    /* text-decoration: underline; */
+    text-align: right;
+    /* background-color: red; */
+}
+.loginSubmit {
+    border: 0;
+    /* margin-top: 5px; */
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    width: 400px;
+    height: 48px;
+    border-radius: 10px;
+    color: white;
+    background-color: #57CAD5;
+    transition: 0.3s;    
+}
+.loginSubmit:hover {
+
+    background-color: #F24F8A;
+}
+.registerSubmit {
+    border: 0;
+    /* margin-top: 5px; */
+    font-size: 14px;
+    /* margin-bottom: 20px; */
+    width: 400px;
+    height: 48px;
+    border-radius: 10px;
+    color: white;
+    background-color: #F24F8A;
+    transition: 0.3s;    
+}
+.registerSubmit:hover {
+
+    background-color: #57CAD5;
+}
+.signUpBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    /* background-color: red; */
+}
+.bla {
+    color: #F24F8A;
+}
+.errMsg {
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.errMsgRP {
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 14px;
+    color: red;
+    position: absolute;
+    margin-top: 65px;
+}

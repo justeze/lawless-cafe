@@ -1,0 +1,19 @@
+.buble{
+    position: absolute;
+    background: rgba(241, 201, 236, 0.3);
+    height: 6em;
+    width: 6em;
+    border-radius: 100%;
+}
+.card-history{
+    padding-left:2vw;
+    margin-top: 5vh;
+    position: relative;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.card-today-income{
+    background: linear-gradient(278.29deg, #FBB2B4 30.05%, rgba(255, 143, 178, 0) 133.19%);
+    filter: drop-shadow(10px 15px 10px rgba(255, 143, 178, 0.25));
+    border-radius: 10px;
+}
